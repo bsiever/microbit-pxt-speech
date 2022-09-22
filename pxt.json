@@ -1,15 +1,15 @@
 {
-    "name": "microbit-pxt-i2cpins",
-    "version": "0.0.6",
-    "description": "Reroute External I2C Pins",
+    "name": "microbit-pxt-speech",
+    "version": "0.0.1",
+    "description": "Speech",
     "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
         "README.md",
-        "i2crr.ts",
-        "i2crr.cpp",
+        "speech.ts",
+        "speech.cpp",
         "shims.d.ts",
         "enums.d.ts"
     ],
@@ -29,7 +29,7 @@
         "Bill Siever <bsiever@gmail.com>"
     ],
     "card": {
-        "name": "Reroute External I2C pins",
+        "name": "Speech",
         "imageUrl": "file:../icon.png",
         "feedbackUrl": "http://siever.info"
     }
